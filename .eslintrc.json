@@ -1,0 +1,18 @@
+{
+	"extends": [
+		"@rocketseat/eslint-config/next",
+		"next/core-web-vitals"
+	],
+	"rules": {
+		"prettier/prettier": [
+			"error",
+			{
+				"tabWidth": 4,
+				"useTabs": true,
+				"semi": false,
+				"endOfLine": "auto",
+				"printWidth": 120
+			}
+		]
+	}
+}
